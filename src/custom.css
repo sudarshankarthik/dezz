@@ -1,0 +1,9 @@
+.hero {
+    background-image: url('./res/img/caleb-ekeroth-vYA26NaRUls-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card-img-overlay {
+    background: rgba(0,0,0,0.6);
+}

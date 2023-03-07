@@ -1,0 +1,159 @@
+[
+    {
+        "product_id": "001",
+        "product_name": "Classic Crewneck T-Shirt",
+        "product_category": "t-shirts",
+        "description": "A timeless classic, this crewneck t-shirt is made from 100% cotton for ultimate comfort and breathability. Available in a range of colors and sizes, it's the perfect addition to any wardrobe.",
+        "price": 19.99,
+        "image": "",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["white", "black", "navy", "red"],
+        "inventory": 100,
+        "ratings": 4.5
+    },
+    {
+        "product_id": "002",
+        "product_name": "Button-Up Oxford Shirt",
+        "product_category": "shirts",
+        "description": "This stylish button-up shirt is perfect for both casual and formal occasions. Made from high-quality cotton, it's both comfortable and durable. Available in a range of colors and sizes.",
+        "price": 39.99,
+        "image": "",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["white", "blue", "gray", "pink"],
+        "inventory": 50,
+        "ratings": 4.0
+    },
+    {
+        "product_id": "003",
+        "product_name": "Hooded Sweatshirt",
+        "product_category": "hoodies",
+        "description": "Stay warm and comfortable in this cozy hooded sweatshirt. Made from soft fleece material, it's perfect for cooler weather. Available in a range of colors and sizes.",
+        "price": 29.99,
+        "image": "",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["gray", "black", "navy", "red"],
+        "inventory": 75,
+        "ratings": 4.2
+    },
+    {
+        "product_id": "004",
+        "product_name": "V-Neck T-Shirt",
+        "product_category": "t-shirts",
+        "description": "This stylish V-neck t-shirt is made from a blend of cotton and polyester for ultimate comfort and durability. Available in a range of colors and sizes, it's the perfect addition to any wardrobe.",
+        "price": 24.99,
+        "image": "",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["white", "black", "gray", "green"],
+        "inventory": 80,
+        "ratings": 4.7
+    },
+    {
+        "product_id": "005",
+        "product_name": "Striped Dress Shirt",
+        "product_category": "shirts",
+        "description": "Make a statement in this stylish striped dress shirt. Made from high-quality cotton, it's both comfortable and durable. Available in a range of colors and sizes.",
+        "price": 49.99,
+        "image": "",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["blue", "gray", "green", "red"],
+        "inventory": 30,
+        "ratings": 4.5
+    },
+    {
+        "product_id": "006",
+        "product_name": "Zip-Up Hoodie",
+        "product_category": "hoodies",
+        "description": "Stay warm and comfortable in this stylish zip-up hoodie. Made from soft fleece material, it's perfect for cooler weather. Available in a range of colors and sizes.",
+        "price": 34.99,
+        "images": "",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["gray", "black", "navy", "green"],
+        "inventory": 60,
+        "ratings": 4.3
+    },
+    {
+        "product_id": "007",
+        "product_name": "Graphic T-Shirt",
+        "product_category": "t-shirts",
+        "description": "Make a statement with this bold graphic t-shirt. Made from soft cotton, it's both comfortable and stylish. Available in a range of designs, colors, and sizes.",
+        "price": 19.99,
+        "images": "",
+        "size": ["S", "M", "L", "XL"],
+        "colors": ["black", "white", "red", "blue"],
+        "inventory": 100,
+        "ratings": 4.8
+    },
+        {
+        "product_id": "008",
+        "product_name": "Classic White T-shirt",
+        "product_category": "T-shirts",
+        "price": 19.99,
+        "description": "Our classic white t-shirt is made from 100% cotton and features a comfortable and stylish fit.",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+        },
+        {
+        "product_id": "009",
+        "product_name": "Slim Fit Blue Shirt",
+        "product_category": "Shirts",
+        "price": 29.99,
+        "description": "Our slim fit blue shirt is perfect for any occasion. Made from a blend of cotton and polyester, it features a modern design and comfortable fit.",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+        "product_id": "010",
+        "product_name": "Black Hoodie",
+        "product_category": "Hoodies",
+        "price": 39.99,
+        "description": "Our black hoodie is made from a soft and warm cotton blend and features a cozy hood and front pocket.",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+        "product_id": "011",
+        "product_name": "Striped Polo Shirt",
+        "product_category": "Shirts",
+        "price": 24.99,
+        "description": "Our striped polo shirt is perfect for a day on the golf course or a casual weekend outing. Made from 100% cotton, it features a comfortable and classic fit.",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+        },
+        {
+        "product_id": "012",
+        "product_name": "Graphic Print T-shirt",
+        "product_category": "T-shirts",
+        "price": 17.99,
+        "description": "Our graphic print t-shirt is made from a soft and breathable cotton blend and features a bold and eye-catching design.",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+        "product_id": "013",
+        "product_name": "Zip-up Hoodie",
+        "product_category": "Hoodies",
+        "price": 44.99,
+        "description": "Our zip-up hoodie is made from a cozy and durable cotton blend and features a convenient front zipper and hood for extra warmth.",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+        "product_id": "014",
+        "product_name": "Pocket T-shirt",
+        "product_category": "T-shirts",
+        "price": 14.99,
+        "description": "Our pocket t-shirt is made from a soft and breathable cotton blend and features a classic and versatile design.",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+        "product_id": "015",
+        "product_name": "Flannel Shirt",
+        "product_category": "Shirts",
+        "price": 34.99,
+        "description": "Our flannel shirt is perfect for a cozy night by the fire or a fall hike. Made from a warm and soft cotton blend, it features a classic plaid design.",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+        }
+
+]
