@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navbar, Container, Nav, Button} from 'react-bootstrap'
-import { Link } from 'react-router-dom';
 import {LinkContainer} from 'react-router-bootstrap'
 import { useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { UserContext } from './Auth/authUser';
 import { signOut } from 'firebase/auth';
 import { UserAuth } from '../firebaseConfig';
+import { db } from '../firebaseConfig';
+import { collection, doc, getDoc } from 'firebase/firestore';
 
 function Navb() {
 
@@ -22,6 +23,23 @@ function Navb() {
       await signOut(UserAuth)
       .then((newUser)=> {setUser(null); navigate('/')})
       .catch((error)=> console.log(error))
+    }
+
+    const userCollection = collection(db,'products')
+
+    const [uname, setUname] = useState('second')
+
+    const getUname = async () => {
+      const docRef = doc(db,'products',user) 
+      const data = await getDoc(docRef)
+      if(data.exists()) setUname(data.data().firstName)
+      else console.log("doc not found");
+      return null
+    }
+
+    if(user != null) {
+      getUname()
+      console.log(uname);
     }
 
   return (
@@ -46,7 +64,7 @@ function Navb() {
           </LinkContainer>
           </Nav>
           <Nav className='justify-content-end'>
-           {user === null ? <Button onClick={login}>Login</Button> : <Button onClick={logout}>Logout</Button>} 
+           {user === null ? <Button onClick={login}>Login</Button> :<>Hi {uname} <Button onClick={logout}>Logout</Button> </>} 
           </Nav>
         </Navbar.Collapse>
       </Container>
