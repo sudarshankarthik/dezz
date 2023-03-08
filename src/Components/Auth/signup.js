@@ -13,12 +13,16 @@ function SignUp(props) {
     const { setUser } = useContext(UserContext);
     const navigate = useNavigate()
 
+    const updateDb = (uid) => {
+      console.log(uid);
+    }
+
 
     const register = async (e) => {
       e.preventDefault();
 
       await createUserWithEmailAndPassword(UserAuth,email,password)
-        .then((newUser)=> {setUser(newUser.user); navigate('/')})
+        .then((newUser)=> {setUser(newUser.user); navigate('/'); updateDb(newUser.user.uid)})
         .catch((error)=> console.log(error))
     };
 

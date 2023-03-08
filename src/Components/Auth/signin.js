@@ -19,7 +19,7 @@ function Signin(props) {
       e.preventDefault();
 
       await signInWithEmailAndPassword(UserAuth,email,password)
-        .then((newUser)=> {setUser(newUser.user); navigate('/')})
+        .then((newUser)=> {setUser(newUser.user); navigate('/'); console.log(newUser.user.uid);})
         .catch((error)=> console.log(error))
     };
 
